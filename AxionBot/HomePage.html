@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="robot.png" type="image/x-icon">
+    <title>AxionBot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="side-bar">
+        <button id="new-chat">New Chat</button>
+        <nav>
+            <p id="p">Made by Axion Company</p>
+        </nav>
+    </section>
+    <section class="main">
+        <h1><span class="highlight">AXIONBOT</span> Garbage<span class="highlight"> Assistant</span></h1>
+
+        <!-- Stacking two bot images as shown in your layout -->
+        <div class="bot-image-container">
+            <img src="robot.png" alt="Axionbot Logo">
+            <div class="hover-message">Hello! I’m here to assist you with your garbage management questions!</div>
+        </div>
+        <div id="output"></div> <!-- Output container positioned below suggested questions -->
+
+        <div class="suggested-questions">
+            <!-- Suggested questions buttons -->
+            <button class="suggestion">Schedule for Garbage Pickup in the Villanueva Area.</button>
+            <button class="suggestion">Garbage Pickup Schedule for All Villanueva Barangays.</button>
+            <button class="suggestion">What are biodegradable materials?</button>
+        </div>
+
+
+
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Ask your question..." />
+            <button id="submit">➔</button>
+        </div>
+
+        <p class="info">Your eco-friendly partner in waste management solutions.</p>
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
