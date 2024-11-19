@@ -240,3 +240,20 @@ button {
         opacity: 1;
     }
 }
+
+.side-bar button {
+    border: solid 0.5px rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0; /* Reduced vertical margin */
+    width: 90%; /* Adjust width to align consistently */
+    text-align: left; /* Optional: Align text to the left */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.side-bar button:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Add hover effect */
+    transform: translateY(-2px); /* Slightly lift the button on hover */
+}
